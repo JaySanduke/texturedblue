@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sectionbg{
+    display: inline-block;
+}
+
+.background1{
+    display: block;       
+    background-image: url("Assets/Images/black-denim-texture-black-fabric-texture-black-background-fabric-backgrounds-denim-black-background-besthqwallpapers.com-2560x1600.jpg");
+    background-color: #cccccc;    
+    background-size: cover;
+}
+
+.content1{
+    display: block;
+    margin: 0 20vw 0 20vw;
+}
+
+.white{
+    color: white;
+}
+
+.blue{
+    color: #1a96ee;
+}
+
+a{
+outline: none;
+text-decoration: underline;
+color: #FD5BFF;
+}
+
+a:hover{
+    text-decoration: none;    
+}
+
+.background1 .content1 header{
+    display: block; 
+    margin: 0 0 8vh 3vw;
+    padding: 3rem 0 0 0;
+}
+
+.background1 .content1 header h1{
+    font-size: 2.2em;
+    letter-spacing: 0.2em;
+    margin-block-end: 5px;
+}
+
+.background1 .content1 header h5{
+    color: #DDD;
+}
+
+.navbar{
+    background-color: #1a96ee;
+}
+
+.navbar .navpane .active{
+    background-color: #0f578a;
+}
+
+.navpane li{
+    display: inline-flex;
+    text-align: center;
+    color: #FFF;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1.5em;
+    letter-spacing: 0.1em;
+    font-size: 16px;
+}
+
+.navpane li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 100;
+}
+
+.navpane li:hover{
+    background-color: #0f578a;
+}
+
+.background2{
+    display: block;
+    background-image: url("Assets/Images/white-linen-background.jpg");
+    background-size: cover;
+    width: 100%;
+}
+
+.content2{
+    display: block;
+    margin: 0 20vw 0 20vw ;
+    background-color: #fff;
+    height: 100%;
+    padding: 1em;
+}
+
+.grid-container{
+    display: grid;
+    width: auto;
+    grid-template-columns: 70% auto;
+    column-gap: 1vw;
+}
+
+.grid-item{
+    padding: 1em;
+    /* border: solid 1px; */
+}
+
+.section{
+    margin-bottom: 2em;
+}
+
+.introsec h1{
+    margin-bottom: 1em;
+}
+
+.introsec p{
+    color:#777;
+    margin-bottom: 1em;
+    line-height: 1.7em;
+    font-size: 12px;
+}
+
+.browsersec h1{
+    margin-bottom: 1em;
+    color: #1a96ee;
+}
+
+.browsersec p{
+    color:#777;
+    margin-bottom: 2em;
+    line-height: 1.7em;
+    font-size: 12px;
+}
+
+.browsersec ul{
+    list-style-type: disc;
+    list-style: #1a96ee;
+}
+
+.browsersec ul li{
+    color:#777;
+    margin-left: 16px;
+    margin-block-start: 16px;
+    font-size: 12px;   
+}
+
+.newssec h1{
+    margin-bottom: 1em;
+}
+
+.newssec article{
+    margin-bottom: 1rem;
+}
+
+.newssec article p{
+    color:#777;
+    margin-top: 5%;
+    line-height: 1.7em;
+    font-size: 12px;
+    width: 90%;
+}
+
+.newssec article h4{
+    color: #1a96ee;
+    margin-block-end: 5px;
+}
+
+.newssec article h6{
+    font-size: 12px;
+    font-style: italic;
+}
+
+.linksec h1{
+    margin-bottom: 1em;
+}
+
+.linksec ul li{
+    margin-left: 2px;
+    margin-block-start: 16px;
+    font-size: 12px;    
+}
+
+.linksec ul li i{
+    width: 16px;
+}
+
+.linksec ul li a{
+    margin-left: 5px;   
+}
+
+.search
+{ color: #5D5D5D; 
+  border: 1px solid #BBB; 
+  width: 130px; 
+  padding: 3px; 
+  font: 100% arial, sans-serif;
+}
+
+#search_form{
+    margin-block-start: 16px;
+}
+
+footer{
+    display: block; 
+    background-color: #1a96ee;
+    height: 3em;
+    margin: 0 20vw 0 20vw;
+}
+#footer{ 
+  font-size: 14px;
+  padding: 2% 0 1% 0;
+  text-align: center; 
+  background: #1a96ee;
+  color: #FFF;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+#footer a
+{ color: #FFF;
+  text-decoration: none;
+}
+
+#footer a:hover
+{ color: #FFF;
+  text-decoration: underline;
+}
